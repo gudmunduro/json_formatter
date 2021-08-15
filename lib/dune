@@ -1,0 +1,4 @@
+(library
+ (name json_parser)
+ (public_name json_parser)
+ (libraries core str))

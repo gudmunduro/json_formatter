@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/extra.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>JSON formatter</title>
+</head>
+<body class="flex flex-col items-center bg-gray-50">
+    <nav class="flex flex-col w-full h-12 bg-red-500 shadow-lg">
+        <h1 class="block text-center text-white w-60 mx-auto py-2 font-rob text-xl">JSON formatter</h1>
+    </nav>
+    <main class="md:mx-0 px-10 py-6 flex flex-col items-center mt-10 bg-white shadow-sm rounded">
+        <textarea id="json-text" class="resize-none sm:w-96 md:w-128 h-72 border-2 border-grey-50 rounded-sm outline-none" ></textarea>
+        <button id="format-button" type="button" class="px-4 py-2 bg-red-500 text-white font-semibold rounded hover:bg-red-600 mt-6 transition-colors" >Format</button>
+    </main>
+    <script src="/js/formatter.js"></script>
+</body>
+</html>

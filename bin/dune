@@ -1,0 +1,3 @@
+(executable
+ (name json_formatter_web)
+ (libraries json_parser opium))
